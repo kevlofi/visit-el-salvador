@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pamphlet {
+  width: 720px;
+  height: 1115px;
+  margin: 20px 0;
+  font-family: "Sora", serif;
+  border-radius: 10px;
+}
+/* Hero Section */
+.hero-section {
+  width: 720px;
+  height: 343px;
+  background-image: url("images/el-salvador-del-mundo.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0 0;
+  background-position: center 49%;
+}
+.hero-section h1 {
+  color: #fff;
+  background-color: rgba(0, 68, 173, 0.75);
+  padding: 9.5px 62px;
+  border-radius: 10px;
+  padding: 9.5px 62px;
+  margin-top: 101px;
+  margin-bottom: 0px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section h3 {
+  background-color: rgba(193, 210, 234, 0.75);
+  width: 496px;
+  height: 75px;
+  border-radius: 10px;
+  padding: 8.5px 15px;
+  text-align: center;
+  margin-top: 19px;
+  margin-bottom: 72px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* Activities Section */
+.activities-section {
+  width: 720px;
+  height: 362px;
+  background-color: #c1d2ea;
+  padding-top: 20px;
+}
+
+.activities-section h2 {
+  width: 720px;
+  height: 37px;
+  margin: 0px 0 15px 0;
+  text-align: center;
+}
+
+.palace-container {
+  width: 202px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.palace {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("images/national-palace.jpg");
+  background-size: cover;
+  background-position: 35% center;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px;
+}
+
+.tazumal-container {
+  width: 205px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tazumal {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("images/tazumal.jpg");
+  background-size: cover;
+  background-position: 75% center;
+  box-shadow: 0 2px 4px;
+}
+
+.coatepeque-container {
+  width: 199px;
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.coatepeque {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("images/coatepeque.jpg");
+  background-size: cover;
+  background-position: 30% center;
+  box-shadow: 0 2px 4px;
+}
+.three-activities-container {
+  display: flex;
+  width: 720px;
+  height: 290px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.three-activities-container h5 {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.three-activities-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+/* Guide Secton */
+.guide-section {
+  width: 720px;
+  height: 390px;
+  background-image: url("images/Asset 1.png");
+  background-size: cover;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whole-card {
+  width: 516px;
+  height: 200px;
+  display: flex;
+  box-shadow: 0px 2px 4px;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  background-image: url("images/profile-picture.png");
+  background-size: cover;
+}
+
+.card {
+  width: 316px;
+  height: 200px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card h4 {
+  margin-bottom: 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 16px 0px;
+}
+
+.card #name {
+  font-weight: bold;
+}
